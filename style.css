@@ -14,10 +14,13 @@ a {
     color: #e52e66;
     text-decoration: none;
 }
+p {
+    line-height: 24px; 
+}
 .wrapper {
     width: 800px;
-    min-height: 596px;
-    margin: 0 auto;    
+    min-height: 600px;
+    margin: 0 auto;
     padding: 60px 0;
     background: url("./assets/images/mainbg.jpg") no-repeat 0 0;
 }
@@ -27,9 +30,9 @@ a {
     background-color: #fff;
 }
 header {
-    padding: 30px;
+    padding: 30px 30px 15px;
     overflow: hidden;
-    background-color: #fff;    
+    background-color: #fff;
     color: #909194;
 }
 header h1 {
@@ -40,7 +43,7 @@ header img {
     float: left;
     margin-right: 8px;
     width: 25px;
-    height: 25px;    
+    height: 25px;
 }
 form {
     padding: 0 20px 20px;
@@ -52,23 +55,25 @@ form .form-row {
     padding: 14px;
     width: 100%;
     border: 2px solid #f0f0f0;
-    border-radius: 5px;    
+    border-radius: 5px;
     background-color: #f0f0f0;
     font-size: 15px;
 }
 button {
-    padding: 15px 133px; 
-    width: 420px;  
+    padding: 15px 133px;
+    width: 420px;
     border: 2px solid #e52e66;
-    border-radius: 5px;    
+    border-radius: 5px;
+    box-shadow: 0 4px 0 #bd1962;
     background-color: #e52e66;
     font-size: 20px;
     font-weight: bold;
     color: #fff;
 }
-#firstName, #lastName {
+#firstName,
+#lastName {
     width: 200px;
 }
 #lastName {
-    margin-left: 15px;;
+    margin-left: 15px;
 }

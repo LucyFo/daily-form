@@ -1,0 +1,73 @@
+body {
+    background-color: #f39da9;
+    min-height: 100vh;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #9eabad;
+    margin: 0;
+    font-size: 13px;
+}
+body * {
+    box-sizing: border-box
+}
+a {
+    color: #e52e66;
+    text-decoration: none;
+}
+.wrapper {
+    width: 800px;
+    min-height: 596px;
+    margin: 0 auto;    
+    padding: 60px 0;
+    background: url("./assets/images/mainbg.jpg") no-repeat 0 0;
+}
+.form-container {
+    width: 460px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+header {
+    padding: 30px;
+    overflow: hidden;
+    background-color: #fff;    
+    color: #909194;
+}
+header h1 {
+    margin: 0;
+    color: #1b1c1d;
+}
+header img {
+    float: left;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;    
+}
+form {
+    padding: 0 20px 20px;
+}
+form .form-row {
+    padding-bottom: 14px;
+}
+.form-row input {
+    padding: 14px;
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;    
+    background-color: #f0f0f0;
+    font-size: 15px;
+}
+button {
+    padding: 15px 133px; 
+    width: 420px;  
+    border: 2px solid #e52e66;
+    border-radius: 5px;    
+    background-color: #e52e66;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#firstName, #lastName {
+    width: 200px;
+}
+#lastName {
+    margin-left: 15px;;
+}

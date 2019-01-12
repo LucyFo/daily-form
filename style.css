@@ -15,7 +15,8 @@ a {
     text-decoration: none;
 }
 p {
-    line-height: 24px; 
+    line-height: 20px; 
+    font-size: 12px;
 }
 .wrapper {
     width: 800px;
@@ -46,7 +47,7 @@ header img {
     height: 25px;
 }
 form {
-    padding: 0 20px 20px;
+    padding: 0 30px 30px; 
 }
 form .form-row {
     padding-bottom: 14px;
@@ -61,18 +62,18 @@ form .form-row {
 }
 button {
     padding: 15px 133px;
-    width: 420px;
+    width: 400px;
     border: 2px solid #e52e66;
     border-radius: 5px;
     box-shadow: 0 4px 0 #bd1962;
     background-color: #e52e66;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
     color: #fff;
 }
 #firstName,
 #lastName {
-    width: 200px;
+    width: 190px;
 }
 #lastName {
     margin-left: 15px;
